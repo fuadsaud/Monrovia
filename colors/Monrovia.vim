@@ -9,7 +9,7 @@
 
 " A Terminal && Vim colorscheme
 " Author:       Alessandro Yorba
-" Script URL:   https://github.com/AlessandroYorba/Monrovia
+" Script URL:   https://github.com/fuadsaud/Monrovia
 " License:      MIT
 
 
@@ -47,7 +47,7 @@ endif
 " LOAD DEFAULT PARAMETERS:
 "=======================================================================================================================
 
-let g:colors_name="old-monrovia"
+let g:colors_name="Monrovia"
 
 "=======================================================================================================================
 " MONROVIA HIGHLIGHTING:
