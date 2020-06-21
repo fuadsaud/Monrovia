@@ -28,7 +28,7 @@
 "     Yellow       #538798      3       |      brYellow     #247DAE      11      |
 "     Blue         #B55242      4       |      brBlue       #C77366      12      |
 "     Magenta      #9E7156      5       |      brMagenta    #B8937C      13      |
-"     Cyan         #60A195      6       |      brCyan       #232839      14      |
+"     Cyan         #60A195      6       |      brCyan       #8AA39B      14      |
 "     White        #D3CBAF      7       |      brWhite      #EEEADF      15      |
 "---------------------------------------|-----------------------------------------
 
@@ -60,7 +60,7 @@ highlight! Type                     guifg=#B8937C  guibg=NONE     gui=NONE      
 highlight! LineNr                   guifg=#2F4659  guibg=NONE     gui=NONE       ctermfg=8     ctermbg=NONE  cterm=NONE
 highlight! SpecialKey               guifg=#B55242  guibg=NONE     gui=NONE       ctermfg=4     ctermbg=0     cterm=NONE
 highlight! ErrorMsg                 guifg=#8C3432  guibg=NONE     gui=NONE       ctermfg=0     ctermbg=0     cterm=NONE
-highlight! CursorLine               guifg=NONE     guibg=#232839  gui=NONE       ctermfg=NONE  ctermbg=14    cterm=NONE
+highlight! CursorLine               guifg=NONE     guibg=#8AA39B  gui=NONE       ctermfg=NONE  ctermbg=14    cterm=NONE
 highlight! CursorColumn             guifg=NONE     guibg=#1F2433  gui=NONE       ctermfg=NONE  ctermbg=0     cterm=NONE
 highlight! String                   guifg=#538798  guibg=NONE     gui=NONE       ctermfg=3     ctermbg=NONE  cterm=NONE
 highlight! PreProc                  guifg=#8C3432  guibg=NONE     gui=NONE       ctermfg=1     ctermbg=NONE  cterm=NONE
