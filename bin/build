@@ -1,0 +1,33 @@
+#!/usr/bin/env bash
+
+set -euo pipefail noclobber
+
+function eecho { echo "$@" 1>&2; }
+
+declare -A filenames
+
+filenames=(
+  ["alacritty"]="monrovia.alacritty.yml" \
+  ["iterm"]="monrovia.itermcolors" \
+  ["xresources"]="monrovia.Xresources" \
+)
+
+output_dir="terminal-colors"
+
+supported_terminals=$(npx termcolors -l | grep export | cut -d ' ' -f 1)
+
+input=$(npx js-yaml colors.yml | jq last)
+
+for terminal in $supported_terminals; do
+
+  if [[ " ${!filenames[@]} " =~ " ${terminal} " ]]; then
+    filename="${filenames[${terminal}]}"
+
+    eecho "Exporting ${terminal} config (${filename})"
+
+    printf '%s' "${input}" \
+      | npx termcolors -i json -o "${terminal}" >| "${output_dir}/${filename}"
+  else
+    eecho "Skipping ${terminal} config since no output filename is configured"
+  fi
+done

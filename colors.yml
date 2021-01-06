@@ -1,0 +1,19 @@
+---
+name  : Monrovia
+author: Fuad Saud
+---
+{
+  background: "#1f2433",
+  foreground: "#d3cbaf",
+
+  # Normal Colors  | Bright Colors
+
+  "0"  : "#1f2433" , "8"  : "#375268" , # blacks
+  "1"  : "#8c3432" , "9"  : "#cb2656" , # reds
+  "2"  : "#7f4c60" , "10" : "#a1617a" , # greens
+  "3"  : "#538798" , "11" : "#247dae" , # yellows
+  "4"  : "#b55242" , "12" : "#c77366" , # blues
+  "5"  : "#9e7156" , "13" : "#b8937c" , # magentas
+  "6"  : "#60a195" , "14" : "#232839" , # cyans
+  "7"  : "#d3cbaf" , "15" : "#eeeadf" , # whites
+}

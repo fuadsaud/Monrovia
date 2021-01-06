@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+
+set -euo pipefail
+
+find terminal-colors -type f -exec rm {} \;
