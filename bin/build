@@ -12,7 +12,7 @@ filenames=(
   ["xresources"]="monrovia.Xresources" \
 )
 
-output_dir="terminal_colors"
+output_dir="terminal-colors"
 
 supported_terminals=$(npx termcolors -l | grep export | cut -d ' ' -f 1)
 

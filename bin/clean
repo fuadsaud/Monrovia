@@ -2,4 +2,4 @@
 
 set -euo pipefail
 
-find terminal_colors -type f -exec rm {} \;
+find terminal-colors -type f -exec rm {} \;

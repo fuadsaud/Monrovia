@@ -5,7 +5,7 @@
 
 ## Terminal Emulators
 
-This repo includes [configuration files](terminal_colors) for using Monrovia in several terminal emulators, as well as a Vim/Neovim plugin. Please refer to your terminal emulator docs for info on how to use them.
+This repo includes [configuration files](terminal-colors) for using Monrovia in several terminal emulators, as well as a Vim/Neovim plugin. Please refer to your terminal emulator docs for info on how to use them.
 
 ## Vim
 
