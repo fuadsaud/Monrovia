@@ -49,4 +49,4 @@ There are a few ways to install Monrovia. The first option is by using your favo
 
 ## Get in touch
 
-Feedback, issues or suggestions?. Open an Issue [Monrovia Issues](https://github.com/fuadsaud/Monrovia/issues)!
+Feedback, issues or suggestions?. [Open an Issue](https://github.com/fuadsaud/Monrovia/issues)!
