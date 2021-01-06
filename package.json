@@ -4,7 +4,9 @@
   "description": "Monrovia color scheme",
   "main": " ",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "clean-build": "run-s clean build",
+    "build": "./bin/build",
+    "clean": "./bin/clean"
   },
   "repository": {
     "type": "git",
@@ -17,6 +19,7 @@
   },
   "homepage": "https://github.com/fuadsaud/Monrovia#readme",
   "devDependencies": {
+    "npm-run-all": "^4.1.5",
     "termcolors": "^0.7.2"
   }
 }
