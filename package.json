@@ -1,0 +1,22 @@
+{
+  "name": "monrovia",
+  "version": "1.0.0",
+  "description": "Monrovia color scheme",
+  "main": " ",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fuadsaud/Monrovia.git"
+  },
+  "author": "Fuad Saud",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fuadsaud/Monrovia/issues"
+  },
+  "homepage": "https://github.com/fuadsaud/Monrovia#readme",
+  "devDependencies": {
+    "termcolors": "^0.7.2"
+  }
+}
